@@ -6,11 +6,11 @@ function saluta(nome) {
 }
 
 // Dichiara la funzione qui.
-saluta(userName);
+const arrowSaluta = word => 'Ciao ' + word;
 
 
 // Invoca la funzione qui e stampa il risultato in console
-console.log(saluta(userName));
+console.log(arrowSaluta(userName))
 
 
 //Risultato atteso se si passa 'Mario': // ciao Mario
